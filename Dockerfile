@@ -4,6 +4,6 @@ RUN apk --no-cache add gcc musl-dev
 
 RUN pip install dpkt regex cymruwhois simplejson
 
-COPY . .
+COPY . /app/pcapminey/
 
-CMD ["python", "pcapfex.py"]
+#CMD ["python", "pcapfex.py"]
